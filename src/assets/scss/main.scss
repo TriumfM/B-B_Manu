@@ -1,0 +1,55 @@
+// General
+@import 'variables';
+@import 'fonts';
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+
+// Main Content
+@import 'main/main';
+@import 'main/home';
+@import 'main/kontakt';
+@import 'main/reservierrung';
+@import 'main/speisekart';
+
+//Admin
+
+//Responsive
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    // font-family: OpenSansRegular !important;
+    color: $alphabet !important;
+    // background-color: $body !important;
+    font-family: Vollkorn;
+
+}
+
+.no--padding {
+    padding: 0px !important;
+}
+  
+.no--margin {
+    margin: 0px !important;
+}
+
+.false__color {
+    color: $error;
+}
+  
+.true__color {
+    color: $success;
+}
+
+.cursor__default {
+    cursor: default !important;
+}
+
+.margin_v-10px {
+    margin: 10px 0px !important;
+}

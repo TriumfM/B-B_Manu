@@ -1,0 +1,89 @@
+.speisekart__conetent {
+
+    &-title {
+        text-align: center;
+        h1 {
+            width: 100%;
+        }
+    }
+}
+
+.speisekart__slider {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #bbbbbb;
+    background-image: url(../img/speisekart_slider1.jpg);
+    background-size: cover;
+}
+
+.home__slider {
+    &_p1 {
+        position: absolute;
+        margin-top: 260px;
+        font-size: 30px;
+        color: $alphabetInverse;
+    }
+
+    &_p2 {
+        position: absolute;
+        margin-top: 300px;
+        color: $alphabetInverse;
+    }
+}
+
+.speisekart__groups {
+    width: calc(100% - 200px);
+    padding: 100px;
+}
+
+.speisekart__group {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+    &-title {
+        margin-bottom: 50px;
+        font-family: Pacifico;
+        color: $alphabet-second;
+    }
+
+}
+
+.speisekart__group-elements {
+    // border-bottom: 1px solid $alphabet;
+    margin-bottom: 100px;
+    .speisekart__group-element {
+        margin: 40px 0px;   
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+    
+        &--name {
+            margin: 10px 0px !important;
+            color: $alphabet-second;
+        }
+    
+        &--info {
+            margin: 10px 0px !important;
+        }
+    }
+}
+
+.speisekart__group-photo-info {
+    position: absolute;
+    top: 50%; 
+}
+
+.speisekart__group-photo-info {
+    display: flex;
+    margin-top: -50px;
+    
+}
+
+.box__info {
+    display: flex;
+    justify-content: center;
+}

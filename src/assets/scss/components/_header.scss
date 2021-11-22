@@ -1,0 +1,35 @@
+.header {
+    background-color: $header;
+    font-size: 24px;
+    font-weight: 400;
+    height: 310px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.logo__image {
+    width: 400px;
+    height: 240px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0px calc(50% - 200px);
+    margin-bottom: 20px;
+}
+
+.menu {
+    // margin: 0px 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        text-decoration: none;
+        color: $alphabetInverse;
+        margin: 10px 20px;
+
+        &:hover {
+            font-size: 25px;
+        }
+    }
+}

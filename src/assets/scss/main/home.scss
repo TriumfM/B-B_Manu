@@ -1,0 +1,119 @@
+.home {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home__slider{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #bbbbbb;
+    background-image: url(../img/home_slider1.png);
+    background-size: cover;
+}
+
+.home__content {
+    &_img {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0px 0px 0px;
+
+        .home__image_img-coffe {
+            width: 25%;
+        }
+    }
+
+    &_text {
+        width: calc(100% - 100px);
+        padding: 50px;
+        text-align: center;
+
+        p {
+            font-size: 25px;
+        }
+    }
+}
+
+.home__contact {
+    display: row;
+}
+
+.contact__box{
+    display: grid;
+    justify-content: center;
+    margin: 30px 70px;
+    min-width: calc(33% - 140px);
+    text-align: center;
+
+    &-icon {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: $icon;
+        margin-bottom: 10px;
+    }
+
+    &-title {
+        display: flex;
+        justify-content: center;
+        font-family: Vollkorn, sans-serif;
+        font-size:30px;
+        font-style:normal;
+        font-weight:600;
+        margin: 5px 0px;
+    }
+
+    &-content {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin: 5px 0px;
+    }
+}
+
+.contact__box_social-network {
+    display: row;
+
+    &--title {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin: 10px 0px;
+        font-size:30px;
+        font-style:normal;
+        font-weight:600;
+        margin: 5px 0px;
+    }
+
+    &--icons {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+}
+
+.social-network__box {
+    margin: 5px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $alphabetInverse;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: $facebook;
+}
+
+.instagram {
+    background-color: $instagram;
+}
+
+.youtube {
+    background-color: $youtube;
+}
