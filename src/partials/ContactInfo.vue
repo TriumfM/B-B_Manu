@@ -54,12 +54,10 @@
             <a class="social-network__box facebook" href="https://www.facebook.com/bachsbinas/">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <div class="social-network__box instagram">
+            <a class="social-network__box instagram" href="https://www.instagram.com/bachs_und_binas">
               <i class="fa fa-instagram" aria-hidden="true"></i>
-            </div>
-            <div class="social-network__box youtube">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </div>
+            </a>
+          
           </div>
         </div>
     </div>

@@ -456,7 +456,7 @@
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo1.png"/>
+              <img src="@/assets/img/photo11.png"/>
             </div>
           </div>
           <div class="speisekart__group">
@@ -475,13 +475,13 @@
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo1.png"/>
+              <img src="@/assets/img/photo9.png"/>
             </div>
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <h1>Torten</h1>
-              <h3>aus der hauseigenen Konditorei</h3>
+              <h2>aus der hauseigenen Konditorei</h2>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element margin_v-10px">
@@ -504,7 +504,7 @@
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo4.png"/>
+              <img src="@/assets/img/photo10.png"/>
             </div>
           </div>
         </div>
