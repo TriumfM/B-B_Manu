@@ -424,20 +424,14 @@
                 <p class="speisekart__group-element--name"><strong>Omelette</strong> 9,90 €</p>
                 <p class="speisekart__group-element--info">mit Thunfisch oder mit Schafskäse</p>
               </div>
-            </div>
-            <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 9,90 €</p>
                 <p class="speisekart__group-element--info">mit Speck und Zwiebel</p>
               </div>
-            </div>
-                        <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 12,90 €</p>
                 <p class="speisekart__group-element--info">mit Rinderhack, Käse und Zwiebe</p>
               </div>
-            </div>
-                        <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 14,90 €</p>
                 <p class="speisekart__group-element--info">mit Lachs, Feta und Spinat</p>
@@ -445,6 +439,72 @@
             </div>
             <div class="speisekart__group-photo-info">
               <img src="@/assets/img/photo1.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Aus dem hauseigenen Suppenkessel</h1>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Tomatensuppe</strong> 5,50 €</p>
+                <p class="speisekart__group-element--info">mit Brot (auf Wunsch auch Vegan)</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Oma’s Hühnersuppe </strong> 5,50 €</p>
+                <p class="speisekart__group-element--info">mit Einlage und Brot</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo1.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Salate</h1>
+              <h2>Wahlweise Hausdressing oder Essig-Öl-Dressing</h2>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Salatteller Spezial</strong> 10,90 €</p>
+                <p class="speisekart__group-element--info">mit Thunfisch und Schafskäse</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Salatteller bunter Hühnerstall</strong> 11,60 €</p>
+                <p class="speisekart__group-element--info">mit Geflügelstreifen</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo1.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Torten</h1>
+              <h3>aus der hauseigenen Konditorei</h3>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Buttercremetorten</strong>  3,90€</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Sahnetorten</strong> 3,90 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Obsttorten</strong>  3,70 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Portion Sahne </strong> 0,90 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Teilchen</strong> 3,00 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Mandelhörnchen, Florentiner .</strong> 3,20 €</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo4.png"/>
             </div>
           </div>
         </div>
