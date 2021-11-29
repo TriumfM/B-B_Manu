@@ -11,7 +11,6 @@
             <router-link class="menu__link" :to="{name: 'kontakt'}">Kontakt</router-link>
             <router-link class="menu__link" :to="{name: 'reservierung'}">Reservierung</router-link>
         </div>
-        
     </div>
 </template>
 
@@ -19,15 +18,40 @@
   export default {
     data () {
       return {
-         open_menu: false,
+        open_menu: true,
+        width: 0,
+        height: 0,
+        txt: null
       }
     },
-    mounted: function () {
+    watch: {
+      width(newWidth) {
+        if (newWidth >= 710) {
+          this.open_menu = true;
+        } else {
+          this.open_menu = false;
+        }
+      }
     },
+    created() {
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    },
+
     methods: {
       showMenu: function () {
         this.open_menu=!this.open_menu;
-      }
+      },
+      onResize() {
+            this.windowHeight = screen.width
+        },
+        handleResize() {
+            this.width = window.innerWidth;
+            this.height = window.innerHeight;
+        }
     }
   }
 </script>
