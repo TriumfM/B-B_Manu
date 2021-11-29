@@ -2,19 +2,18 @@
     background-color: $header;
     font-size: 24px;
     font-weight: 400;
-    height: 310px;
     width: 100%;
     border-bottom: 1px solid #fff;
 }
 
 .logo__image {
     width: 400px;
-    height: 240px;
+    height: 310px;
     border-radius: 40px;
     display: flex;
     justify-content: center;
-    margin: 0px calc(50% - 200px);
-    margin-bottom: 20px;
+    margin: 0px auto;
+    margin-bottom: -54px;
 }
 
 .menu {
@@ -32,4 +31,8 @@
             font-size: 25px;
         }
     }
+}
+
+.menu__status {
+    display: none;
 }

@@ -16,6 +16,11 @@
 //Admin
 
 //Responsive
+@import 'responsive/speisekart';
+@import 'responsive/reservierrung';
+@import 'responsive/header';
+@import 'responsive/general';
+
 
 body {
     padding: 0px;
@@ -52,4 +57,8 @@ body {
 
 .margin_v-10px {
     margin: 10px 0px !important;
+}
+
+.display_none {
+    display: none !important;
 }

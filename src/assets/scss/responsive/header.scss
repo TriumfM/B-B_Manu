@@ -1,0 +1,41 @@
+// max-width: 710px
+@media only screen and (max-width: $screen-xxs-min) {
+    .menu {
+        display: inline-block;
+        height: calc(4 * 54px);
+        background: #212121;
+    }
+
+    .logo__image {
+        margin-bottom: 0px !important;
+    }
+    
+    .menu__link {
+        display: block;
+        width: calc(100% - 30px);
+        border: 0;
+        border-bottom-width: 1px;
+        border-style: solid;
+        border-color: #eaeaea;
+        padding: 9.5px 15px;
+        margin: 0px;
+    }
+
+    .menu__link:hover {
+        font-size: 24px;
+    }
+
+    .menu__status {
+        text-align: center;
+        display: block;
+    }
+}
+
+// max-width: 710px
+@media only screen and (max-width: $screen-xxxs-min) {
+    .logo__image {
+        width: 300px;
+        height: 250;
+        padding: 30px 0px;
+    }
+}

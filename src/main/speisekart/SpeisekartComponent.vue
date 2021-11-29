@@ -11,37 +11,26 @@
           <h2>Im Restaurant oder abgeholt...</h2>
         </div>
         <div class="box__info">
-          <div class="contact__box">
-            <div class="contact__box-icon">
+          <div class="contact__box_speisekart">
+            <div class="contact__box_speisekart-icon">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </div>
-            <div class="contact__box-title">
+            <div class="contact__box_speisekart-title">
               <span>Jetzt bestellen!</span>
             </div>
-            <div class="contact__box-content">
+            <div class="contact__box_speisekart-content">
               <span>+49 2266 6516</span>
             </div>
           </div>
-          <div class="contact__box">
-            <div class="contact__box-icon">
+          <div class="contact__box_speisekart">
+            <div class="contact__box_speisekart-icon">
               <i class="fa fa-car"></i>
             </div>
-            <div class="contact__box-title">
+            <div class="contact__box_speisekart-title">
               <span>Keine Lieferung!</span>
             </div>
-            <div class="contact__box-content">
+            <div class="contact__box_speisekart-content">
               <span>Natürlich gibt's gerne weiterhin alle Speisen zum mitnehmen.</span>
-            </div>
-          </div>
-          <div class="contact__box">
-            <div class="contact__box-icon">
-              <i class="fa fa-whatsapp"></i>
-            </div>
-            <div class="contact__box-title">
-              <span>Bestellen per WhatsApp?</span>
-            </div>
-            <div class="contact__box-content">
-              <span>+49 2266 6516</span>
             </div>
           </div>
         </div>
@@ -279,7 +268,10 @@
                 <p class="speisekart__group-element--name"><strong>Scheibe Wurst, Käse, Schinken</strong>1,00 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Portion Butter, Konfitüre, Honig, Nuss-Nougatcreme</strong> 0,70 €</p>
+                <p class="speisekart__group-element--name"><strong>Portion Butter, Konfitüre</strong> 0,70 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Honig, Nuss-Nougatcreme</strong> 0,70 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
                 <p class="speisekart__group-element--name"><strong>Portion Quark</strong> 1,20 €</p>
@@ -292,7 +284,7 @@
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <!-- <img src="@/assets/img/photo5.png"/> -->
+              <img src="@/assets/img/photo14.png"/> 
             </div>
           </div>
           <div class="speisekart__group">
@@ -302,15 +294,17 @@
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Strammer Max</strong> 8,50 €</p>
-                <p class="speisekart__group-element--info">mit Salat 3) 6) 8)</p>
+                <p class="speisekart__group-element--info">mit Salat (Konsevierungsstoffe, mit Antioxidationsmittel oder mit Phosphate, eine Liste der Allergene können Sie jederzeit einsehen)</p>
               </div>
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Speckpfannekuchen</strong> 8,90 €</p>
-                <p class="speisekart__group-element--info">mit Salat 3) 6)</p>
+                <p class="speisekart__group-element--info">mit Salat</p>
+                <p class="speisekart__group-element--info">(Konsevierungsstoffe oder mit Antioxidationsmittel)</p>
+
               </div>
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Apfelpfannekuchen</strong> 8.90 €</p>
-                <p class="speisekart__group-element--info">mit Eis und Sahne 4) oder mit Calvados (auf Wunsch auch vegan)</p>
+                <p class="speisekart__group-element--info">mit Eis und Sahne (mit Farbstoff) oder mit Calvados (auf Wunsch auch vegan)</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
@@ -329,7 +323,7 @@
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Frische Reibekuchen</strong> 8,10/11,50 €</p>
                 <p class="speisekart__group-element--info">mit Apfelmuss und Schwarzbrot</p>
-                <p class="speisekart__group-element--info">mit Räucherlachs 3) 6)</p>
+                <p class="speisekart__group-element--info">mit Räucherlachs (Konsevierungsstoffe oder mit Antioxidationsmittel)</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">

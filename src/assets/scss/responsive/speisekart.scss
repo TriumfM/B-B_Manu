@@ -1,0 +1,48 @@
+// max-width: 1100px
+@media only screen and (max-width: $screen-md-min) {
+    .speisekart__group-photo-info {
+        margin-left: -80px;
+    }
+}
+  
+// max-width: 1024px
+@media only screen and (max-width: $screen-md) {
+    .speisekart__groups {
+        width: calc(100% - 180px);
+        padding: 20px 30px 0px 150px;
+    }
+
+    .speisekart__group-photo-info {
+        margin-left: -120px;
+    }
+}
+
+// max-width: 900px
+@media only screen and (max-width: $screen-sm) {
+    .speisekart__group {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .speisekart__group-photo-info {
+        margin-left: -200px
+    }
+}
+
+// max-width: 710px
+@media only screen and (max-width: $screen-xxs-min) {
+    .speisekart__groups {
+        width: calc(100% - 40px);
+        padding: 20px 20px;
+    }
+
+
+    .speisekart__group {
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .speisekart__group-photo-info {
+      display: none;
+  }
+}

@@ -67,9 +67,6 @@
             <div class="social-network__box instagram">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
-            <div class="social-network__box youtube">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </div>
           </div>
       </div>
       </div>

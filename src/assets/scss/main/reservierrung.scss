@@ -1,6 +1,4 @@
 .reservierung__content {
-
-
     &-title {
         width: calc(100% - 100px);
         padding: 20px 50px;
@@ -8,6 +6,7 @@
 
         &--t1 {
             margin: 5px 0px;
+            word-wrap: break-word;
         }
 
         &--t2 {
