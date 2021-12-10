@@ -4,46 +4,32 @@
         <div class="reservierung__content-title">
           <h1 class="reservierung__content-title--t1">RESERVIERUNGANFRAGE</h1>
           <h2 class="reservierung__content-title--t2">Ihr Platz im Bach's & Bina's</h2>
-          <p class="reservierung__content-title--details">Bei Onlinereservierungen bitten wir um eine Vorlaufzeit von 12 Stunden. Nach der Anfrage erhalten Sie (in der Regel innerhalb von wenigen Stunden) eine Bestätigung per E-Mail. Bitte füllen Sie das Formular vollständig aus. Falls Sie einen Lieblingsplatz bei uns haben, können Sie uns diesen gerne im Nachrichtenfeld mitteilen. ??????</p>
+          <p class="reservierung__content-title--details">Bei Onlinereservierungen erhalten Sie (in der Regel innerhalb von wenigen Stunden) eine Bestätigung per E-Mail. Bitte füllen Sie das Formular vollständig aus. Fur mehr anrufen Sie bitte!</p>
         </div>
         
-        <div class="reservierung__form">
+        <form  class="reservierung__form" @submit.prevent="sendEmail">
           <div class="form__element">
             <p class="form__element-name">Name</p>
-            <input class="form__element-value"/>
+            <input class="form__element-value" placeholder="Dein Name" type="text" v-model="name" name="name"/>
           </div>
           <div class="form__element">
-            <p class="form__element-name">Firma</p>
-            <input class="form__element-value"/>
+            <p class="form__element-name">Email</p>
+            <input class="form__element-value" type="email" v-model="email" name="email" placeholder="Deine Email"/>
           </div>
           <div class="form__element">
-            <p class="form__element-name">E-mail</p>
-            <input class="form__element-value"/>
+            <p class="form__element-name">Telefonnummer</p>
+            <input class="form__element-value" type="text" v-model="tel" name="tel" placeholder="Deine Telefonnummer"/>
           </div>
           <div class="form__element">
-            <p class="form__element-name">Telefon</p>
-            <input class="form__element-value"/>
+            <p class="form__element-name">Message</p>
+            <textarea class="form__element-value value_message" rows="9" name="message" v-model="message" placeholder="Deine Message">
+            </textarea>
           </div>
+          
           <div class="form__element">
-            <p class="form__element-name">Anzahl Personen</p>
-            <input class="form__element-value"/>
+            <button class="form__element-button" type="submit" value="Senden">Senden</button>
           </div>
-          <div class="form__element">
-            <p class="form__element-name">Datum</p>
-            <input class="form__element-value"/>
-          </div>
-          <div class="form__element">
-            <p class="form__element-name">Uhrzeit</p>
-            <input class="form__element-value"/>
-          </div>
-          <div class="form__element">
-            <p class="form__element-name">Nachricht</p>
-            <input class="form__element-value"/>
-          </div>
-          <div class="form__element">
-            <button class="form__element-button">Senden</button>
-          </div>
-        </div>
+        </form >
          <div class="contact__box">
           <div class="contact__box-icon">
             <i class="fa fa-phone" aria-hidden="true"></i>
@@ -74,15 +60,60 @@
 </template>
 
 <script>
+  import emailjs from 'emailjs-com';
+  import swal from 'sweetalert2/dist/sweetalert2.js'
+
   export default {
     name: 'MainView',
     data () {
       return {
+        name: '',
+        email: '',
+        message: '',
+        tel: ''
       }
     },
     mounted: function () {
     },
     methods: {
+      sendEmail(e) {
+
+        if (this.name != '' && this.email != '' && this.message != '' && this.tel != '') {
+          try {
+            emailjs.sendForm('service_x3x2xmo', 'template_1nrf8xc', e.target,
+            'user_LOk1HWrFjmDepAAYiqogO', {
+              name: this.name,
+              email: this.email,
+              message: this.message
+            }).then(() => {
+              swal.fire(
+                'Die Bestellung ist eingegangen',
+                '',
+                'success'
+              )
+              this.name = ''
+              this.email = ''
+              this.message = ''
+              this.tel = ''
+          }, () => {
+              swal.fire(
+                'Die Bestellung ist nicht eingegangen',
+                'Bitte rufen an +49 2266 6516',
+                'error'
+              )
+          });
+
+          } catch(error) {
+              console.log({error})
+          }
+        } else {
+          swal.fire(
+            'Bitte füllen Sie die Eingaben aus',
+            '',
+            'error'
+          )
+        }
+      },
     }
   }
 </script>

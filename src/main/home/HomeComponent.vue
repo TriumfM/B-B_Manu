@@ -1,7 +1,7 @@
 <template>
     <div class="home">
       <div class="home__slider">
-        <!-- <img class="home__slider_img" src="@/assets/img/home_slider1.png"/> -->
+        <img class="home__slider_img" src="@/assets/img/home_slider1.png"/>
       </div>
       <div class="home__content">
         <div class="home__content_img">
