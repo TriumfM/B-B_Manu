@@ -19,6 +19,7 @@
         border-color: #eaeaea;
         padding: 9.5px 15px;
         margin: 0px;
+        color: $alphabetInverse;
     }
 
     .menu__link:hover {
@@ -26,7 +27,7 @@
     }
 
     .menu__status {
-        color: #fff;
+        color: $alphabet;
         text-align: center;
         display: block;
     }
