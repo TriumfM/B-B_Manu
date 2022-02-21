@@ -14,7 +14,7 @@
     justify-content: center;
     margin-bottom: 20px;
     background-color: #bbbbbb;
-    background-image: url(../img/speisekart_slider1.jpg);
+    background-image: url(../img/speisekarte.jpg);
     background-size: cover;
 }
 
@@ -45,9 +45,9 @@
     display: inline-block;
 
     &-title {
-        margin-bottom: 50px;
-        font-family: Pacifico;
+        margin-bottom: 30px;
         color: $alphabet-second;
+        display: inherit;
     }
 
 }
@@ -120,4 +120,20 @@
         font-size: 24px;
         margin: 5px 0px;
     }
+}
+
+.speisekart__group-image{
+    border: 1px solid #ededed;
+    width: 350px;
+    padding: 10px 10px 20px 10px;
+
+    &-img {
+        width: 100%;
+        width: inherit;
+    }
+
+    h1 {
+        margin: 20px 0px 0px 0px !important;
+    }
+    
 }

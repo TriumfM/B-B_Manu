@@ -1,9 +1,9 @@
 <template>
     <div class="speisekart">
       <div class="speisekart__slider">
-        <img class="home__slider_img" src="@/assets/img/speisekart_slider1.jpg"/>
-        <p class="home__slider_p1">Speise & Getränkekarte</p>
-        <p class="home__slider_p2">Hausgemacht!</p>
+        <img class="home__slider_img" src="@/assets/img/speisekarte.jpg"/>
+         <p class="home__slider_p1"></p>
+         <p class="home__slider_p2"></p>
       </div>
       <div class="speisekart__conetent">
         <div class="speisekart__conetent-title">
@@ -37,7 +37,10 @@
         <div class="speisekart__groups">
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Eisgetränke & Shakes</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/speisekarte.jpg" class="speisekart__group-image-img"/>
+                <h1>Eisgetränke & Shakes</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -63,7 +66,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Eiskarte</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/eiskarte.jpg" class="speisekart__group-image-img"/>
+                <h1>Eiskarte</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -97,7 +103,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Frühstück</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/frustuck1.jpg" class="speisekart__group-image-img"/>
+                <h1>Frühstück</h1>            
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -130,33 +139,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Biere</h1>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Peters Kölsch</strong> 1,90/2,80€</p>
-                <p class="speisekart__group-element--info">vom Fass     0,2l/0,3l</p>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/spirituosen.jpg" class="speisekart__group-image-img"/>
+                <h1>Spirituosen &Aperitifs</h1>
               </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,90 €</p>
-                <p class="speisekart__group-element--info">0,5l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,20 €</p>
-                <p class="speisekart__group-element--info">alkoholfrei      0,5l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Bergisches Landbier </strong> 2,90 €</p>
-                <p class="speisekart__group-element--info">Radler oder Sportsfreund alkoholfrei.      0,33l</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo4.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <h1>Spirituosen &Aperitifs</h1>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element margin_v-10px">
@@ -248,6 +234,32 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
+              <h1>Biere</h1>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Peters Kölsch</strong> 1,90/2,80€</p>
+                <p class="speisekart__group-element--info">vom Fass     0,2l/0,3l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,90 €</p>
+                <p class="speisekart__group-element--info">0,5l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,20 €</p>
+                <p class="speisekart__group-element--info">alkoholfrei      0,5l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Bergisches Landbier </strong> 2,90 €</p>
+                <p class="speisekart__group-element--info">Radler oder Sportsfreund alkoholfrei.      0,33l</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo4.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
               <h1>Extras</h1>
               <h2>Erweitern Sie Ihr Frühstück genau nach Ihrem Geschmack</h2>
             </div>
@@ -289,7 +301,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Die Klassiker</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/apfelpfannekuchen.jpg" class="speisekart__group-image-img"/>
+                <h1>Die Klassiker</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -332,8 +347,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Keo Teespezialitäten</h1>
-              <h2>Feinste Teesorten in großen Bechern serviert</h2>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/keo_tee.jpg" class="speisekart__group-image-img"/>
+                <h1>Keo Teespezialitäten</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -358,7 +375,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Kaffee</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/azul.png" class="speisekart__group-image-img"/>
+                <h1>Kaffee</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element margin_v-10px">
@@ -411,7 +431,10 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Omelettes and Flamkuchen</h1>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/omlete.jpg" class="speisekart__group-image-img"/>
+                <h1>Omelettes and Flamkuchen</h1>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
@@ -474,8 +497,11 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Torten</h1>
-              <h2>aus der hauseigenen Konditorei</h2>
+              <div class="speisekart__group-image">
+                <img src="@/assets/img/torten.jpg" class="speisekart__group-image-img"/>
+                <h1>Torten</h1>
+                <h2>aus der hauseigenen Konditorei</h2>
+              </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element margin_v-10px">
