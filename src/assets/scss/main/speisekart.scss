@@ -9,29 +9,37 @@
 }
 
 .speisekart__slider {
-    height: 600px;
-    transition-duration: calc(5000ms*1.2);
+    height: 700px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     background-color: #bbbbbb;
-    background-image: url(../img/speisekarte.jpg);
     background-size: cover;
-    animation: zoom-in-zoom-out 20s ease infinite;
-    transition-duration: 20s;
+    transition-duration: 2s;
     transition-timing-function: linear;
     box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.home__slider_img_menu {
+    // position: absolute;
+    width: 90%;
+    height: auto;
+    animation: zoom-in-zoom-out 20s ease infinite;
+
 }
 
 @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1, 1);
+      transform: scale(1.15, 1.1);
     }
     50% {
-        transform: scale(1.1, 1);
+        transform: scale(1.2, 1.2);
       }
     100% {
-        transform: scale(1, 1);
+        transform: scale(1.15, 1.1);
     }
   }
 

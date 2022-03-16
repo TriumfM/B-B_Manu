@@ -1,6 +1,7 @@
 <template>
     <div class="speisekart">
       <div class="speisekart__slider">
+       <img class="home__slider_img_menu" src="@/assets/img/speisekarte.jpg"/>
         <p class="home__slider_p1"></p>
         <p class="home__slider_p2"></p>
       </div>
