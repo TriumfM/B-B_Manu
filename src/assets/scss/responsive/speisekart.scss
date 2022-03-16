@@ -31,11 +31,14 @@
 
 // max-width: 710px
 @media only screen and (max-width: $screen-xxs-min) {
+    .speisekart__slider {
+        height: 400px;
+    }
+
     .speisekart__groups {
         width: calc(100% - 40px);
         padding: 20px 20px;
     }
-
 
     .speisekart__group {
         width: 100%;
@@ -45,4 +48,11 @@
     .speisekart__group-photo-info {
       display: none;
   }
+}
+
+// max-width: 500px
+@media only screen and (max-width: $screen-xxs-min) {
+    .speisekart__slider {
+        height: 340px;
+    }
 }

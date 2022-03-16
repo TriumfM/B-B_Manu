@@ -17,7 +17,7 @@ import ContactInfo from '../../partials/ContactInfo.vue'
 
   export default {
   components: { ContactInfo },
-    name: 'MainView',
+    name: 'KontaktView',
     data () {
       return {
         mapOptions: {

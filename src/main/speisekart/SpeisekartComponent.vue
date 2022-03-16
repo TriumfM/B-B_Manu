@@ -1,9 +1,8 @@
 <template>
     <div class="speisekart">
       <div class="speisekart__slider">
-        <img class="home__slider_img" src="@/assets/img/speisekarte.jpg"/>
-         <p class="home__slider_p1"></p>
-         <p class="home__slider_p2"></p>
+        <p class="home__slider_p1"></p>
+        <p class="home__slider_p2"></p>
       </div>
       <div class="speisekart__conetent">
         <div class="speisekart__conetent-title">
