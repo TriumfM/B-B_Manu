@@ -9,7 +9,7 @@
 }
 
 .speisekart__slider {
-    height: 700px;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,29 +19,9 @@
     transition-duration: 2s;
     transition-timing-function: linear;
     box-sizing: border-box;
+    background-image: url(../img/speisekarte.jpg);
     overflow: hidden;
-    position: relative;
 }
-
-.home__slider_img_menu {
-    // position: absolute;
-    width: 90%;
-    height: auto;
-    animation: zoom-in-zoom-out 20s ease infinite;
-
-}
-
-@keyframes zoom-in-zoom-out {
-    0% {
-      transform: scale(1.15, 1.1);
-    }
-    50% {
-        transform: scale(1.2, 1.2);
-      }
-    100% {
-        transform: scale(1.15, 1.1);
-    }
-  }
 
 .home__slider {
     &_p1 {

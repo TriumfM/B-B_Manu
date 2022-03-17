@@ -1,7 +1,7 @@
 <template>
     <div class="speisekart">
       <div class="speisekart__slider">
-       <img class="home__slider_img_menu" src="@/assets/img/speisekarte.jpg"/>
+        <img class="home__slider_img_menu" src="@/assets/img/speisekarte.jpg"/>
         <p class="home__slider_p1"></p>
         <p class="home__slider_p2"></p>
       </div>
@@ -38,7 +38,7 @@
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/speisekarte.jpg" class="speisekart__group-image-img"/>
+                <img src="@/assets/img/eiskarte.jpg" class="speisekart__group-image-img"/>
                 <h1>Eisgetränke & Shakes</h1>
               </div>
             </div>
@@ -66,10 +66,7 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <div class="speisekart__group-image">
-                <img src="@/assets/img/eiskarte.jpg" class="speisekart__group-image-img"/>
-                <h1>Eiskarte</h1>
-              </div>
+              <h1>Eiskarte</h1>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
