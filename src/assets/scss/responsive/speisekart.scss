@@ -84,5 +84,21 @@
         100% {
             transform: scale(1.15, 1.1);
         }
-      }
+    }
+    .speisekart__group-image {
+        width: calc(100% - 20px);
+        
+        &-img {
+            width: 100%;
+        }
+    }
+
+    .speisekart__group-element {
+        font-size: 19px !important;
+    }
+
+    .speisekart__group-element {
+        font-size: 19px !important;
+
+    }
 }
