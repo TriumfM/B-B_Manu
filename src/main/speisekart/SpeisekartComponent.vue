@@ -38,70 +38,6 @@
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/eiskarte.jpg" class="speisekart__group-image-img"/>
-                <h1>Eisgetränke & Shakes</h1>
-              </div>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Milchshake</strong> 4,50 €</p>
-                <p class="speisekart__group-element--info">Erdbeer, Banane, Schokolade, Vanille, Himbeere, Heidelbeere</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Eiskaffee</strong> 4,90 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, Kaffee, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Eisschokolade</strong> 4.90 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, Trinkschokolade, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>„Eiskalter Engel“</strong> 5,50 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, Orangensaft, Sahne</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo1.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <h1>Eiskarte</h1>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>1 Kugel Eis</strong> 1,20 €</p>
-                <p class="speisekart__group-element--info">Erdbeer, Banane, Schokolade, Vanille, Himbeere, Heidelbeere</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Fruchtbecher</strong> 6,50 €</p>
-                <p class="speisekart__group-element--info">gemischtes Eis, gemischte Früchte, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Eisbecher „Schwarzwaldmädel“</strong> 6,50 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, heiße Kirschen, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Krokant- Becher</strong> 6,90 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, hausgemachter Krokant, Eierlikör, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Amarena- Becher</strong> 6,90 €</p>
-                <p class="speisekart__group-element--info">Vanilleeis, Amarena- Kirschen, Sahne</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Eisbecher „Nussknacker“</strong> 6,90 €</p>
-                <p class="speisekart__group-element--info">Schokoladen- und Nusseis, Sahne, Walnüsse, Karamellsoße</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo2.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <div class="speisekart__group-image">
-                <img src="@/assets/img/frustuck1.jpg" class="speisekart__group-image-img"/>
                 <h1>Frühstück</h1>            
               </div>
             </div>
@@ -132,127 +68,6 @@
             </div>
             <div class="speisekart__group-photo-info">
               <img src="@/assets/img/photo3.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <div class="speisekart__group-image">
-                <img src="@/assets/img/spirituosen.jpg" class="speisekart__group-image-img"/>
-                <h1>Spirituosen &Aperitifs</h1>
-              </div>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Jägermeister</strong>  - 2cl - 3,00€</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Genever, Liköre</strong> - 2cl - 3,20 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Ramazzotti</strong>  - 2cl - 3,20 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Williams Birne</strong> - 2cl -  3,40 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Campari- Orange</strong> - 0,2l - 6,00 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Hugo</strong> - 0,2l - 6,00 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Aperol-Spritzz</strong> - 0,2l - 6,00 €</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo4.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <h1>Alkoholfreie Getränke</h1>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Cola</strong> koffeinhaltig - 0,3l - 2,80€</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Coca Zero Zucker</strong> koffeinhaltig - 0,3l - 2,80€</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Limonade</strong> - 0,3l - 2,80€</p>
-                <p class="speisekart__group-element--info">Orange oder Zitrone</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Flasche Wasser</strong> 1,90€/5,50€</p>
-                <p class="speisekart__group-element--info">0,25l/0,75l</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Schweppes Bitter Lemon</strong> chininhaltig - 0,2l - 2,90 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Fassbrause</strong> - 0,33l - 2,90 €</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Säfte</strong> - 0,2l - 2,90 €</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo5.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <h1>Weine und Sekt </h1>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Weißwein trocken-fruchtig </strong> 5,20€</p>
-                <p class="speisekart__group-element--info">Grauburgunder, Bischoffinger Vulkanfelsen, </p>
-                <p class="speisekart__group-element--info">Winzergenossenschaft Bischoffinger-Endingen</p>
-                <p class="speisekart__group-element--info">am Kaiserstuhl eG.     Glas 0,2 l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Weißwein feinfruchtig und frisch</strong> 5,20€</p>
-                <p class="speisekart__group-element--info">Riesling, Ruppertsberger Weinkeller, Pfalz     Glas 0,2 l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Rotwein trocken und vollmundig</strong> 5,20€</p>
-                <p class="speisekart__group-element--info">Grenache, Südfrankreich      Glas 0,2 l</p>
-              </div>
-              <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Glas Haussekt</strong> 3,00€</p>
-                <p class="speisekart__group-element--info">Glas 0,1 l</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo5.png"/>
-            </div>
-          </div>
-          <div class="speisekart__group">
-            <div class="speisekart__group-title">
-              <h1>Biere</h1>
-            </div>
-            <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Peters Kölsch</strong> 1,90/2,80€</p>
-                <p class="speisekart__group-element--info">vom Fass     0,2l/0,3l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,90 €</p>
-                <p class="speisekart__group-element--info">0,5l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,20 €</p>
-                <p class="speisekart__group-element--info">alkoholfrei      0,5l</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Bergisches Landbier </strong> 2,90 €</p>
-                <p class="speisekart__group-element--info">Radler oder Sportsfreund alkoholfrei.      0,33l</p>
-              </div>
-            </div>
-            <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo4.png"/>
             </div>
           </div>
           <div class="speisekart__group">
@@ -298,8 +113,72 @@
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
+              <h1>Suppen</h1>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Tomatensuppe</strong> 5,50 €</p>
+                <p class="speisekart__group-element--info">mit Brot (auf Wunsch auch Vegan)</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Oma’s Hühnersuppe </strong> 5,50 €</p>
+                <p class="speisekart__group-element--info">mit Einlage und Brot</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo11.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Salate</h1>
+              <h2>Wahlweise Hausdressing oder Essig-Öl-Dressing</h2>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Salatteller Spezial</strong> 10,90 €</p>
+                <p class="speisekart__group-element--info">mit Thunfisch und Schafskäse</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Salatteller bunter Hühnerstall</strong> 11,60 €</p>
+                <p class="speisekart__group-element--info">mit Geflügelstreifen</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo9.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/apfelpfannekuchen.jpg" class="speisekart__group-image-img"/>
+                <h1>Omelettes and Flamkuchen</h1>
+              </div>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Omelette</strong> 9,90 €</p>
+                <p class="speisekart__group-element--info">mit Thunfisch oder mit Schafskäse</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 9,90 €</p>
+                <p class="speisekart__group-element--info">mit Speck und Zwiebel</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 12,90 €</p>
+                <p class="speisekart__group-element--info">mit Rinderhack, Käse und Zwiebe</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 14,90 €</p>
+                <p class="speisekart__group-element--info">mit Lachs, Feta und Spinat</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo1.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <div class="speisekart__group-image">
                 <h1>Die Klassiker</h1>
               </div>
             </div>
@@ -335,7 +214,7 @@
               <div class="speisekart__group-element">
                 <p class="speisekart__group-element--name"><strong>Frische Reibekuchen</strong> 8,10/11,50 €</p>
                 <p class="speisekart__group-element--info">mit Apfelmuss und Schwarzbrot</p>
-                <p class="speisekart__group-element--info">mit Räucherlachs (Konsevierungsstoffe oder mit Antioxidationsmittel)</p>
+                <p class="speisekart__group-element--info">mit Räucherlachs(Konsevierungsstoffe/Antioxidationsmittel)</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
@@ -345,35 +224,37 @@
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/keo_tee.jpg" class="speisekart__group-image-img"/>
-                <h1>Keo Teespezialitäten</h1>
+                <h1>Torten</h1>
+                <h2>aus der hauseigenen Konditorei</h2>
               </div>
             </div>
             <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Schwarztee</strong> 3,60 €</p>
-                <p class="speisekart__group-element--info">Chai Tee, Friesentee, Darjeeling</p>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Buttercremetorten</strong>  3,90€</p>
               </div>
-               <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Kräutertee</strong> 3,60 €</p>
-                <p class="speisekart__group-element--info">Pfefferminze</p>
-                <p class="speisekart__group-element--info">Kräuterharmonie (Kräutertee mit fruchtiger Apfelnote)</p>
-                <p class="speisekart__group-element--info">Insel der Sinne (Ayurvedischer Kräutertee mit Ingwer)</p>
-                <p class="speisekart__group-element--info">Grüner Tee Pfirsich, Rooibos Vanille mit echten Vanillestückchen</p>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Sahnetorten</strong> 3,90 €</p>
               </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Früchtetee</strong> 3,60 €</p>
-                <p class="speisekart__group-element--info">Pflaume-Zimt — Tee der Saison</p>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Obsttorten</strong>  3,70 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Portion Sahne </strong> 0,90 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Teilchen</strong> 3,00 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Mandelhörnchen, Florentiner .</strong> 3,20 €</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo7.png"/>
+              <img src="@/assets/img/photo10.png"/>
             </div>
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/azul.png" class="speisekart__group-image-img"/>
                 <h1>Kaffee</h1>
               </div>
             </div>
@@ -429,99 +310,210 @@
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/omlete.jpg" class="speisekart__group-image-img"/>
-                <h1>Omelettes and Flamkuchen</h1>
+                <h1>Tee</h1>
               </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Omelette</strong> 9,90 €</p>
-                <p class="speisekart__group-element--info">mit Thunfisch oder mit Schafskäse</p>
+                <p class="speisekart__group-element--name"><strong>Schwarztee</strong> 3,60 €</p>
+                <p class="speisekart__group-element--info">Chai Tee, Friesentee, Darjeeling</p>
+              </div>
+               <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Kräutertee</strong> 3,60 €</p>
+                <p class="speisekart__group-element--info">Pfefferminze</p>
+                <p class="speisekart__group-element--info">Kräuterharmonie (Kräutertee mit fruchtiger Apfelnote)</p>
+                <p class="speisekart__group-element--info">Insel der Sinne (Ayurvedischer Kräutertee mit Ingwer)</p>
+                <p class="speisekart__group-element--info">Grüner Tee Pfirsich, Rooibos Vanille mit Vanillestückchen</p>
               </div>
               <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 9,90 €</p>
-                <p class="speisekart__group-element--info">mit Speck und Zwiebel</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 12,90 €</p>
-                <p class="speisekart__group-element--info">mit Rinderhack, Käse und Zwiebe</p>
-              </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Flamkuchen</strong> 14,90 €</p>
-                <p class="speisekart__group-element--info">mit Lachs, Feta und Spinat</p>
+                <p class="speisekart__group-element--name"><strong>Früchtetee</strong> 3,60 €</p>
+                <p class="speisekart__group-element--info">Pflaume-Zimt — Tee der Saison</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo1.png"/>
+              <img src="@/assets/img/photo7.png"/>
             </div>
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Aus dem hauseigenen Suppenkessel</h1>
+              <h1>Alkoholfreie Getränke</h1>
             </div>
             <div class="speisekart__group-elements">
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Tomatensuppe</strong> 5,50 €</p>
-                <p class="speisekart__group-element--info">mit Brot (auf Wunsch auch Vegan)</p>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Cola</strong> koffeinhaltig - 0,3l - 2,80€</p>
               </div>
-              <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Oma’s Hühnersuppe </strong> 5,50 €</p>
-                <p class="speisekart__group-element--info">mit Einlage und Brot</p>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Coca Zero Zucker</strong> koffeinhaltig - 0,3l - 2,80€</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Limonade</strong> - 0,3l - 2,80€</p>
+                <p class="speisekart__group-element--info">Orange oder Zitrone</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Flasche Wasser</strong> 1,90€/5,50€</p>
+                <p class="speisekart__group-element--info">0,25l/0,75l</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Schweppes Bitter Lemon</strong> - 0,2l - 2,90 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Fassbrause</strong> - 0,33l - 2,90 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Säfte</strong> - 0,2l - 2,90 €</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo11.png"/>
+              <img src="@/assets/img/photo5.png"/>
             </div>
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
-              <h1>Salate</h1>
-              <h2>Wahlweise Hausdressing oder Essig-Öl-Dressing</h2>
+              <h1>Biere</h1>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Salatteller Spezial</strong> 10,90 €</p>
-                <p class="speisekart__group-element--info">mit Thunfisch und Schafskäse</p>
+                <p class="speisekart__group-element--name"><strong>Peters Kölsch</strong> 1,90/2,80€</p>
+                <p class="speisekart__group-element--info">vom Fass     0,2l/0,3l</p>
               </div>
               <div class="speisekart__group-element">
-                <p class="speisekart__group-element--name"><strong>Salatteller bunter Hühnerstall</strong> 11,60 €</p>
-                <p class="speisekart__group-element--info">mit Geflügelstreifen</p>
+                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,90 €</p>
+                <p class="speisekart__group-element--info">0,5l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Schöfferhofer Hefeweizen</strong> 4,20 €</p>
+                <p class="speisekart__group-element--info">alkoholfrei      0,5l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Bergisches Landbier </strong> 2,90 €</p>
+                <p class="speisekart__group-element--info">Radler oder Sportsfreund alkoholfrei.      0,33l</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo9.png"/>
+              <img src="@/assets/img/photo4.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Weine und Sekt </h1>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Weißwein trocken-fruchtig </strong> 5,20€</p>
+                <p class="speisekart__group-element--info">Grauburgunder, Bischoffinger Vulkanfelsen, </p>
+                <p class="speisekart__group-element--info">Winzergenossenschaft Bischoffinger-Endingen</p>
+                <p class="speisekart__group-element--info">am Kaiserstuhl eG.     Glas 0,2 l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Weißwein feinfruchtig und frisch</strong> 5,20€</p>
+                <p class="speisekart__group-element--info">Riesling, Ruppertsberger Weinkeller, Pfalz     Glas 0,2 l</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Rotwein trocken und vollmundig</strong> 5,20€</p>
+                <p class="speisekart__group-element--info">Grenache, Südfrankreich      Glas 0,2 l</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Glas Haussekt</strong> 3,00€</p>
+                <p class="speisekart__group-element--info">Glas 0,1 l</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo5.png"/>
             </div>
           </div>
           <div class="speisekart__group">
             <div class="speisekart__group-title">
               <div class="speisekart__group-image">
-                <img src="@/assets/img/torten.jpg" class="speisekart__group-image-img"/>
-                <h1>Torten</h1>
-                <h2>aus der hauseigenen Konditorei</h2>
+                <h1>Spirituosen &Aperitifs</h1>
               </div>
             </div>
             <div class="speisekart__group-elements">
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Buttercremetorten</strong>  3,90€</p>
+                <p class="speisekart__group-element--name"><strong>Jägermeister</strong>  - 2cl - 3,00€</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Sahnetorten</strong> 3,90 €</p>
+                <p class="speisekart__group-element--name"><strong>Genever, Liköre</strong> - 2cl - 3,20 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Obsttorten</strong>  3,70 €</p>
+                <p class="speisekart__group-element--name"><strong>Ramazzotti</strong>  - 2cl - 3,20 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Portion Sahne </strong> 0,90 €</p>
+                <p class="speisekart__group-element--name"><strong>Williams Birne</strong> - 2cl -  3,40 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Teilchen</strong> 3,00 €</p>
+                <p class="speisekart__group-element--name"><strong>Campari- Orange</strong> - 0,2l - 6,00 €</p>
               </div>
               <div class="speisekart__group-element margin_v-10px">
-                <p class="speisekart__group-element--name"><strong>Mandelhörnchen, Florentiner .</strong> 3,20 €</p>
+                <p class="speisekart__group-element--name"><strong>Hugo</strong> - 0,2l - 6,00 €</p>
+              </div>
+              <div class="speisekart__group-element margin_v-10px">
+                <p class="speisekart__group-element--name"><strong>Aperol-Spritzz</strong> - 0,2l - 6,00 €</p>
               </div>
             </div>
             <div class="speisekart__group-photo-info">
-              <img src="@/assets/img/photo10.png"/>
+              <img src="@/assets/img/photo4.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <h1>Eiskarte</h1>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>1 Kugel Eis</strong> 1,20 €</p>
+                <p class="speisekart__group-element--info">Erdbeer, Banane, Schokolade, Vanille, Himbeere, Heidelbeere</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Fruchtbecher</strong> 6,50 €</p>
+                <p class="speisekart__group-element--info">gemischtes Eis, gemischte Früchte, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Eisbecher „Schwarzwaldmädel“</strong> 6,50 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, heiße Kirschen, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Krokant- Becher</strong> 6,90 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, hausgemachter Krokant, Eierlikör, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Amarena- Becher</strong> 6,90 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, Amarena- Kirschen, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Eisbecher „Nussknacker“</strong> 6,90 €</p>
+                <p class="speisekart__group-element--info">Schokoladen- und Nusseis, Sahne, Walnüsse, Karamellsoße</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo2.png"/>
+            </div>
+          </div>
+          <div class="speisekart__group">
+            <div class="speisekart__group-title">
+              <div class="speisekart__group-image">
+                <h1>Eisgetränke & Shakes</h1>
+              </div>
+            </div>
+            <div class="speisekart__group-elements">
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Milchshake</strong> 4,50 €</p>
+                <p class="speisekart__group-element--info">Erdbeer, Banane, Schokolade, Vanille, Himbeere, Heidelbeere</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Eiskaffee</strong> 4,90 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, Kaffee, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>Eisschokolade</strong> 4.90 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, Trinkschokolade, Sahne</p>
+              </div>
+              <div class="speisekart__group-element">
+                <p class="speisekart__group-element--name"><strong>„Eiskalter Engel“</strong> 5,50 €</p>
+                <p class="speisekart__group-element--info">Vanilleeis, Orangensaft, Sahne</p>
+              </div>
+            </div>
+            <div class="speisekart__group-photo-info">
+              <img src="@/assets/img/photo1.png"/>
             </div>
           </div>
         </div>

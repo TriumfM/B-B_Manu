@@ -50,9 +50,14 @@
     display: inline-block;
 
     &-title {
-        margin-bottom: 30px;
-        color: $alphabet-second;
+        margin-bottom: 22px;
+        color: $alphabet;
         display: inherit;
+
+        h1 {
+            margin: 0px;
+            padding: 0px;
+        }
     }
 
 }
@@ -61,14 +66,15 @@
     // border-bottom: 1px solid $alphabet;
     margin-bottom: 100px;
     .speisekart__group-element {
-        margin: 40px 0px;   
+        margin: 25px 0px;   
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
     
         &--name {
             margin: 10px 0px !important;
-            color: $alphabet-second;
+            color: $alphabet;
+            font-weight: 800;
         }
     
         &--info {
@@ -128,9 +134,8 @@
 }
 
 .speisekart__group-image{
-    border: 1px solid #ededed;
+    border: 0px solid #ededed;
     width: 350px;
-    padding: 10px 10px 20px 10px;
     border-radius: 2px;
 
     &-img {
