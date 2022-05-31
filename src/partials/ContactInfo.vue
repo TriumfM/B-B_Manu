@@ -28,13 +28,13 @@
             <span>Montag: Ruhetag</span>
           </div>
           <div class="contact__box-content">
-            <span>Dienstag - Donnerstag: 09:00-18:30 Uhr</span>
+            <span>Dienstag - Donnerstag: 09:00-18:00 Uhr</span>
           </div>
           <div class="contact__box-content">
             <span>Freitag und Samstag: 09:00-23:00 Uhr</span>
           </div>
           <div class="contact__box-content">
-            <span>Sonntag und Feiertags: 10:00-18:30 Uhr</span>
+            <span>Sonntag und Feiertags: 10:00-18:00 Uhr</span>
           </div>
         </div> 
          <div class="contact__box">
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="contact__box_social-network">
-          <p class="contact__box_social-network--title">We ❤️ new Friends!</p>
+          <p class="contact__box_social-network--title">Bei Interesse besuchen Sie uns bei Instagram oder Facebook.</p>
           <div class="contact__box_social-network--icons">
             <a class="social-network__box facebook" href="https://www.facebook.com/bachsbinas/">
               <i class="fa fa-facebook" aria-hidden="true"></i>

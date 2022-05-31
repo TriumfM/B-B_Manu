@@ -19,6 +19,10 @@
         <div class="home__content_img">
           <img class="home__image_img" src="@/assets/img/theowners.png"/>
         </div>
+        <div class="home__content_text">
+          <h1>Besondere Anlässe</h1>
+          <p>Für besondere Anlässe, wie zum Beispiel Hochzeiten, Taufen, Kommunion, Konfirmation, Geburtstage setzen wir Ihre Vorstellungen individuel um.</p>
+        </div>
       </div>
       <div class="home__image">
       </div>

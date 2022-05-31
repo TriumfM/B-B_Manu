@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="contact__box_social-network">
-          <p class="contact__box_social-network--title">We ❤️ new Friends!</p>
+          <p class="contact__box_social-network--title">Bei Interesse besuchen Sie uns bei Instagram oder Facebook.</p>
           <div class="contact__box_social-network--icons">
             <a class="social-network__box facebook" href="https://www.facebook.com/bachsbinas/">
               <i class="fa fa-facebook" aria-hidden="true"></i>
